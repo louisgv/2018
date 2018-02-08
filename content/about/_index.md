@@ -7,6 +7,8 @@ A log of what happens and observation of the year 2018 at the lab.
 
 ## Theme
 
-![Hugo Future Imperfect Screenshot](https://raw.githubusercontent.com/jpescador/hugo-future-imperfect/master/images/screenshot.png)
+[Hugo Future Imperfect][62555684]
 
 Thanks for reading!
+
+[62555684]: https://github.com/jpescador/hugo-future-imperfect "Hugo Future Imperfect"
