@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://louisgv.me/2018/blog/dat-wp-uml-dissect/</loc>
+    <lastmod>2018-02-08T11:34:28-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://louisgv.me/2018/about/</loc>
     <lastmod>2018-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://louisgv.me/2018/</loc>
+    <lastmod>2018-02-08T11:34:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://louisgv.me/2018/blog/</loc>
+    <lastmod>2018-02-08T11:34:28-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -22,7 +34,19 @@
   </url>
   
   <url>
+    <loc>http://louisgv.me/2018/categories/dat/</loc>
+    <lastmod>2018-02-08T11:34:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://louisgv.me/2018/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://louisgv.me/2018/tags/technical/</loc>
+    <lastmod>2018-02-08T11:34:28-05:00</lastmod>
     <priority>0</priority>
   </url>
   

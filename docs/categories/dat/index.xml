@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2018.lab</title>
-    <link>http://louisgv.me/2018/</link>
-    <description>Recent content on 2018.lab</description>
+    <title>DAT on 2018.lab</title>
+    <link>http://louisgv.me/2018/categories/dat/</link>
+    <description>Recent content in DAT on 2018.lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Feb 2018 11:34:28 -0500</lastBuildDate>
     
-	<atom:link href="http://louisgv.me/2018/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://louisgv.me/2018/categories/dat/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
