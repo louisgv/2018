@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 2018.lab</title>
-    <link>http://louisgv.me/2018/categories/</link>
+    <link>https://louisgv.me/2018/categories/</link>
     <description>Recent content in Categories on 2018.lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://louisgv.me/2018/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://louisgv.me/2018/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DAT</title>
-      <link>http://louisgv.me/2018/categories/dat/</link>
-      <pubDate>Thu, 08 Feb 2018 11:34:28 -0500</pubDate>
+      <link>https://louisgv.me/2018/categories/dat/</link>
+      <pubDate>Sun, 25 Feb 2018 13:21:41 -0500</pubDate>
       
-      <guid>http://louisgv.me/2018/categories/dat/</guid>
+      <guid>https://louisgv.me/2018/categories/dat/</guid>
       <description></description>
     </item>
     

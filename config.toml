@@ -1,4 +1,4 @@
-baseurl = "http://louisgv.me/2018/"
+baseurl = "https://louisgv.me/2018/"
 languageCode = "en-us"
 title = "2018.lab"
 theme = "hugo-future-imperfect"
@@ -61,11 +61,11 @@ publishDir = "docs"
 # prefer to use. See Staticman.yml for additional settings.
 [params.staticman]
   # Sets Statiman to be active
-  staticman = false
+  staticman = true
   # Sets the location for Staticman to connect to
-  username  = ""
-  repo      = ""
-  branch    = ""
+  username  = "louisgv"
+  repo      = "2018"
+  branch    = "master"
 
   [params.staticman.recaptcha]
     sitekey = "SITE_KEY"

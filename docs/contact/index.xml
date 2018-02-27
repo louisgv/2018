@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on 2018.lab</title>
-    <link>http://louisgv.me/2018/contact/</link>
+    <link>https://louisgv.me/2018/contact/</link>
     <description>Recent content in Contact on 2018.lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://louisgv.me/2018/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://louisgv.me/2018/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

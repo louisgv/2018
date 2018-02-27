@@ -2,21 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical on 2018.lab</title>
-    <link>http://louisgv.me/2018/tags/technical/</link>
+    <link>https://louisgv.me/2018/tags/technical/</link>
     <description>Recent content in Technical on 2018.lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Feb 2018 11:34:28 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 25 Feb 2018 13:21:41 -0500</lastBuildDate>
     
-	<atom:link href="http://louisgv.me/2018/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://louisgv.me/2018/tags/technical/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>DAT hyperproxy conceptualize</title>
+      <link>https://louisgv.me/2018/blog/dat-hyperproxy-concept/</link>
+      <pubDate>Sun, 25 Feb 2018 13:21:41 -0500</pubDate>
+      
+      <guid>https://louisgv.me/2018/blog/dat-hyperproxy-concept/</guid>
+      <description>Abstracts This blog entails the discussion between @stayfun_ and I this Sunday on our brainstorming session for Hyperproxy.
+Introduction We had a discussion with @joeahand 7 days ago regarding what we can do to most effectively contribute to the Dat project. The project we decided to work on is related to this comment that Joe left on an issue in dat-js, the original project we planned to work on.</description>
+    </item>
+    
+    <item>
       <title>DAT White Paper Dissection</title>
-      <link>http://louisgv.me/2018/blog/dat-wp-uml-dissect/</link>
+      <link>https://louisgv.me/2018/blog/dat-wp-uml-dissect/</link>
       <pubDate>Thu, 08 Feb 2018 11:34:28 -0500</pubDate>
       
-      <guid>http://louisgv.me/2018/blog/dat-wp-uml-dissect/</guid>
+      <guid>https://louisgv.me/2018/blog/dat-wp-uml-dissect/</guid>
       <description>Abstracts This is a technical log on our progress on the FOSS project. It is the second week of Sprint 1, and the Rochester weather is ever forgiving. My ankles were soaked in snow for at least three days straight, and my shoes had turned into a bleak white shade.
 Our initial goal of Sprint 1 week 2 is to research and understand as much as possible about the Dat-js library as well as the DAT protocol as a whole from their white paper.</description>
     </item>
