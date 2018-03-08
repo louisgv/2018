@@ -26,7 +26,7 @@ This blog entails the discussion between [@stayfun_](https://twitter.com/stayfun
 
 We had a discussion with [@joeahand](https://twitter.com/joeahand) 7 days ago regarding what we can do to most effectively contribute to the Dat project. The project we decided to work on is related to this [comment](https://github.com/datproject/dat-js/issues/9#issuecomment-349718517) that Joe left on an issue in dat-js, the original project we planned to work on.
 
-![dat-js issue 9](/2018/img/2018/02/dat-js-issue-9.png)
+![dat-js issue 9](dat-js-issue-9.png)
 
 @stayfun_ and I named the new project `Hyperproxy`. The goal of `Hyperproxy` is to be a bridge between Dat browser node (running on WebRTC) and the Dat native node (running on TCP/UDP).
 
@@ -53,15 +53,15 @@ We quickly figured that the second iteration is pointless, unless our server its
 
 Digging deeper into `signalhub`, we found this [interesting issue](https://github.com/mafintosh/signalhub/issues/33):
 
-![signalhub issue 33](/2018/img/2018/02/signalhub-issue-33.png)
+![signalhub issue 33](signalhub-issue-33.png)
 
 This issue leads us to [signalhubws](https://github.com/soyuka/signalhubws), a very interesting rewrite/reimplementation of signalhub that uses a websocket server instead of a plain http. We found this to be interesting and might be a great experimentation for our proxy server. Props to [@s0yuka](https://twitter.com/s0yuka) the author of the library.
 
 Further digging into `webrtc-swarm` lead us to [simple-peer](https://github.com/feross/simple-peer), an awesome WebRTC abstraction by [@feross](https://twitter.com/feross). The interesting thing about this finding is that it in turn lead us to the [web-torrent project](https://github.com/webtorrent/webtorrent), where we found this diagram:
 
-![webtorrent diagram](/2018/img/2018/02/webtorrent-diagram.png)
+![webtorrent diagram](webtorrent-diagram.png)
 
-Apparently, the torrent protocol suffered the same problem as Dat before webtorrent. The bittorent native node and webtorrent nodes (webrtc) nodes could not be on the same network due to protocol mismatching. The solution was to create a hybrid node with !(web-torrent-hybrid)[https://github.com/webtorrent/webtorrent-hybrid]. The hybrid torrent node was the missing link that can communicate with both native or webtorrent node, allowing for data arbitrage between the other two type of nodes.
+Apparently, the torrent protocol suffered the same problem as Dat before webtorrent. The bittorent native node and webtorrent nodes (webrtc) nodes could not be on the same network due to protocol mismatching. The solution was to create a hybrid node with [web-torrent-hybrid](https://github.com/webtorrent/webtorrent-hybrid). The hybrid torrent node was the missing link that can communicate with both native or webtorrent node, allowing for data arbitrage between the other two type of nodes.
 
 Learning from webtorrent, our third concept of `Hyperproxy` composes of two modules. The first is a portable hybrid node that can be run either as a server node or be embedded into any electron process. This hybrid node arbitrages connection between WebRTC and TCP/UDP native nodes. The second module is a dedicated signalhub server that tracks the hybrid node and make sure that for every connected foreign WebRTC client, there is at least one capable hybrid node within that behave just like any webRTC node that will serve back response from TCP/UDP nodes.
 
