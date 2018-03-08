@@ -74,6 +74,10 @@ canonifyURLs = true
   repo      = "2018"
   branch    = "master"
 
+  [params.staticman.recaptcha]
+    sitekey = "6LcjhksUAAAAAF-Ib7iQiFP3IfxqXERW6OLwaeUb"
+    secret  = "yZW0WkUu7fBy4N/rf/ZeKuxonWHG7ce5x80Y3STYPvYd5K9feXHt7bNIMEcn1Ur3GnzFD4pW8+5C+mVQoeu1kAgsS1+eIxgNUKJk2KzMeRDnv7QbdbB5ucpHI1YU9itrxDOW2Ht3Jovb8q/x65xxDLz/tSOKB6QbjUKEyvLzqaE="
+
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
