@@ -7,7 +7,7 @@ author: "Louis Vichy"
 type: "post"
 
 
-featured: "dat-js-uml.png"
+featured: "/dat-js-uml.png"
 featuredalt: "DAT-js UML"
 featuredpath: "date"
 
@@ -28,17 +28,17 @@ Our initial goal of Sprint 1 week 2 is to research and understand as much as pos
 
 The Dat-js library composed of two classes: Dat and Repo.
 
-![Dat class](/2018/img/2018/02/dat-class.png)
+![Dat class](/img/2018/02/dat-class.png)
 
 The main class Dat implements the EventEmitter API which is implemented within the browser. The constructor takes in an opts Object for potential option handling. The class has has two public fields: opts which is a reference to the option Object, and repos is is an array of Repo which is the second class of the library.
 
-![Repo class](/2018/img/2018/02/repo-class.png)
+![Repo class](/img/2018/02/repo-class.png)
 
 The second class Repo is an abstraction to interact with the core API of the DAT protocol which is hyperdrive. Directly from the class header, it is "a hyperdrive with some default settings." It relays its transaction via WebRTC. Its cache layer is memdb.
 
 The overall UML graph of the library (disregarding external library) is as follow:
 
-![Dat-js UML](/2018/img/2018/02/dat-js-uml.png)
+![Dat-js UML](/img/2018/02/dat-js-uml.png)
 
 # White Paper
 
