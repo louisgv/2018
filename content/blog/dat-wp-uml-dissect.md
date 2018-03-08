@@ -7,7 +7,7 @@ author: "Louis Vichy"
 type: "post"
 
 
-featured: "/dat-js-uml.png"
+featured: "dat-js-uml.png"
 featuredalt: "DAT-js UML"
 featuredpath: "date"
 

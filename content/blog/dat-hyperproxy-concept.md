@@ -7,7 +7,7 @@ author: "Louis Vichy"
 type: "post"
 
 
-featured: "/hyperproxy-sd-0.png"
+featured: "hyperproxy-sd-0.png"
 featuredalt: "Hyperproxy"
 featuredpath: "date"
 
