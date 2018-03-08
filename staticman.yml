@@ -37,7 +37,7 @@ comments:
   moderation: false
 
   # Name of the site. Used in notification emails.
-  name: ""
+  name: "2018.lab"
 
   # (*) REQUIRED
   #
@@ -60,6 +60,7 @@ comments:
 
   # View the README at https://github.com/eduardoboucas/staticman-recaptcha
   reCaptcha:
-    enabled: false
-    siteKey: ""
-    secret: ""
+    enabled: true
+    sitekey: "6LcjhksUAAAAAF-Ib7iQiFP3IfxqXERW6OLwaeUb"
+    secret: "GOsj8HHYEDqWd3Fw1AyerdKjZnPjdacmJ8MhvFfckQ+a8s5t2C4e/DWpoptQFlbGiNdG7aikUrIR5UZ1sBNn98oYhYA6oH7ezzBEwue/n5H98Y
+    9hGNtPI0rqSr5CrvQmWKS8qKueumewIGUoW3DyWw3d+gEdr3cGkSNH7Vx84xE="

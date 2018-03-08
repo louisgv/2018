@@ -4,11 +4,18 @@ title = "2018.lab"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "2018.lab"
+# disqusShortname = "2018-lab"
 googleAnalytics = ""
 pluralizeListTitles = false
 
 publishDir = "docs"
+
+enableRobotsTXT = true
+canonifyURLs = true
+# and if you think your md file names or locations might change:
+[permalinks]
+  post = "/blog/:title/"
+
 
 [params]
   # Sets the meta tag description
@@ -67,10 +74,6 @@ publishDir = "docs"
   repo      = "2018"
   branch    = "master"
 
-  [params.staticman.recaptcha]
-    sitekey = "SITE_KEY"
-    secret  = "ENCRYPTED_SECRET"
-
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
@@ -115,11 +118,11 @@ publishDir = "docs"
   identifier = "fa fa-newspaper-o"
   weight = 3
 
-[[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
-  identifier = "fa fa-list"
-  weight = 4
+# [[menu.main]]
+#   name = "Itemized"
+#   url = "/itemized/"
+#   identifier = "fa fa-list"
+#   weight = 4
 
 [[menu.main]]
   name = "Categories"
@@ -171,7 +174,7 @@ publishDir = "docs"
     qq             = "" # User ID Number
   instagram        = ""
   tumblr           = ""
-  twitter          = ""
+  twitter          = "lgvichy"
   skype            = ""
   snapchat         = ""
   pinterest        = ""
@@ -181,4 +184,4 @@ publishDir = "docs"
   orcid            = ""
   researchgate     = ""
   # Email
-  email            = "hi@louisgv.me"
+  email            = "lgvichy at gmail dot com"
