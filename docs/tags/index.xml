@@ -6,9 +6,19 @@
     <description>Recent content in Tags on 2018.lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 10 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://louisgv.me/2018/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Game</title>
+      <link>https://louisgv.me/2018/tags/game/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://louisgv.me/2018/tags/game/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Technical</title>

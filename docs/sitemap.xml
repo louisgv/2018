@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://louisgv.me/2018/blog/tracestar-concept/</loc>
+    <lastmod>2018-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://louisgv.me/2018/blog/dat-hyperproxy-concept/</loc>
     <lastmod>2018-02-25T13:21:41-05:00</lastmod>
   </url>
@@ -19,13 +24,13 @@
   
   <url>
     <loc>https://louisgv.me/2018/</loc>
-    <lastmod>2018-02-25T13:21:41-05:00</lastmod>
+    <lastmod>2018-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://louisgv.me/2018/blog/</loc>
-    <lastmod>2018-02-25T13:21:41-05:00</lastmod>
+    <lastmod>2018-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -45,13 +50,26 @@
   </url>
   
   <url>
+    <loc>https://louisgv.me/2018/tags/game/</loc>
+    <lastmod>2018-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://louisgv.me/2018/tags/</loc>
+    <lastmod>2018-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://louisgv.me/2018/tags/technical/</loc>
     <lastmod>2018-02-25T13:21:41-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://louisgv.me/2018/categories/tracestar/</loc>
+    <lastmod>2018-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
