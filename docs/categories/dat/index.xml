@@ -6,10 +6,20 @@
     <description>Recent content in DAT on 2018.lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Feb 2018 13:21:41 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 25 Mar 2018 00:09:41 +0000</lastBuildDate>
     
 	<atom:link href="https://louisgv.me/2018/categories/dat/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DAT hyperproxy at NoiseBridge</title>
+      <link>https://louisgv.me/2018/blog/dat-hyperproxy-noisebridge/</link>
+      <pubDate>Sun, 25 Mar 2018 00:09:41 +0000</pubDate>
+      
+      <guid>https://louisgv.me/2018/blog/dat-hyperproxy-noisebridge/</guid>
+      <description>Abstracts This is the first week of Sprint 3. Louis got a scholarship from Unity to attend GDC, and thus he flew to San Francisco for 10 days. During GDC, he talked to many many interesting people. After GDC, he went to Noise Bridge, and he got into an interesting discussion with several privacy advocate hackers that would turned out to be super beneficial to hyperproxy.
+Introduction Louis met up with group of privacy hackers at Noise Bridge, a San Francisco based hackerspace during his trip to GDC.</description>
+    </item>
     
     <item>
       <title>DAT hyperproxy conceptualize</title>
