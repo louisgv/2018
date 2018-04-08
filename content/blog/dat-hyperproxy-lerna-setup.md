@@ -19,11 +19,11 @@ linktitle: ""
 
 # Abstracts
 
-Monorepo is a code base architecture where every module associated to a single software are placed under a single repository. This architecture might be an overhead cost to setup if the project is being developed by a single person. However, when a project has several modules and is authored by a team of people, it is extremely beneficial to team productivity as proven by its usage in large company such as [Facebook](https://www.youtube.com/watch?v=X0VH78ye4yY) and [Google](https://www.youtube.com/watch?v=W71BTkUbdqE), while the trade-off for adopting this practice is actually quite minimal.
+Monorepo is a code base architecture where every module associated with a single software is placed under a single repository. This architecture might be an overhead cost to setup if the project is being developed by a single person. However, when a project has several modules and is authored by a team of people, it is extremely beneficial to team productivity as proven by its usage in large company such as [Facebook](https://www.youtube.com/watch?v=X0VH78ye4yY) and [Google](https://www.youtube.com/watch?v=W71BTkUbdqE), while the trade-off for adopting this practice is actually quite minimal.
 
 # Introduction
 
-Previously, we talked about how we arrived at our [3 technical milestones for hyperproxy](#dat-hyperproxy-noisebridge). Our current implementation requires constant server and browser restart in order to test our code. Furthermore, we're not scaling our module fast enough. In order to achieve modular implementation so that our team can works on milestone independently, as well as creating tooling to automate app refresh pipeline, for we need to catch up on our delivery promise with the Dat project, @stayfun_ and @lgvichy decided to adopt the monorepo architect for Hyperproxy.
+Previously, we talked about how we arrived at our [3 technical milestones for hyperproxy](/blog/dat-hyperproxy-noisebridge). Our current implementation requires constant server and browser restart in order to test our code. Furthermore, we're not scaling our module fast enough. In order to achieve modular implementation so that our team can works on milestone independently, as well as creating tooling to automate app refresh pipeline, for we need to catch up on our delivery promise with the Dat project, @stayfun_ and @lgvichy decided to adopt the monorepo architect for Hyperproxy.
 
 In our [RFC](https://docs.google.com/document/d/1zvGN7hmeOVHOaQjCUr3XuNLZxZxvOn1u0GwVhR_ucB4/edit?usp=sharing), we defined 3 main concepts: `hyperproxy-browser`, `hyperproxy-node` and `hyperproxy-hub`. Let's take an indepth look at the main functionality of each module.
 

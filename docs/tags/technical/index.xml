@@ -17,7 +17,7 @@
       <pubDate>Sun, 08 Apr 2018 17:45:00 +0000</pubDate>
       
       <guid>https://louisgv.me/2018/blog/dat-hyperproxy-lerna-setup/</guid>
-      <description>Abstracts Monorepo is a code base architecture where every module associated to a single software are placed under a single repository. This architecture might be an overhead cost to setup if the project is being developed by a single person. However, when a project has several modules and is authored by a team of people, it is extremely beneficial to team productivity as proven by its usage in large company such as Facebook and Google, while the trade-off for adopting this practice is actually quite minimal.</description>
+      <description>Abstracts Monorepo is a code base architecture where every module associated with a single software is placed under a single repository. This architecture might be an overhead cost to setup if the project is being developed by a single person. However, when a project has several modules and is authored by a team of people, it is extremely beneficial to team productivity as proven by its usage in large company such as Facebook and Google, while the trade-off for adopting this practice is actually quite minimal.</description>
     </item>
     
     <item>
