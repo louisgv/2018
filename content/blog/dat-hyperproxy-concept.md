@@ -1,5 +1,5 @@
 ---
-title: "DAT hyperproxy conceptualize"
+title: "Hyperproxy - conceptualize"
 description: "Conceptualizing the hyperproxy"
 date: 2018-02-25T13:21:41-05:00
 draft: false

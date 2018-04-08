@@ -1,19 +1,11 @@
-
-
-
-    
-        
-    
-
-
-
-
 <!DOCTYPE HTML>
 
 <html>
     <head>
         
-            <title>Categories - 2018.lab</title>
+            
+                <title>Hyperproxy - monorepo</title>
+            
         
 
         <meta charset="utf-8" />
@@ -23,24 +15,27 @@
 
 
         
+            <meta name="author" content="Louis Vichy">
         
-            
-                <meta name="description" content="2018 blog about things">
-            
+        
+            <meta name="description" content="Why, what and how to work with lerna based monorepo">
         
 
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="2018 blog about things"/>
+<meta name="twitter:title" content="Hyperproxy - monorepo"/>
+<meta name="twitter:description" content="Why, what and how to work with lerna based monorepo"/>
 <meta name="twitter:site" content="@lgvichy"/>
 
-        <meta property="og:title" content="Categories" />
-<meta property="og:description" content="2018 blog about things" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://louisgv.me/2018/categories/" />
+        <meta property="og:title" content="Hyperproxy - monorepo" />
+<meta property="og:description" content="Why, what and how to work with lerna based monorepo" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://louisgv.me/2018/blog/dat-hyperproxy-lerna-setup/" />
 
 
 
+<meta property="article:published_time" content="2018-04-08T17:45:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-04-08T17:45:00&#43;00:00"/>
 
 
 
@@ -53,9 +48,17 @@
 
 
         
-<meta itemprop="name" content="Categories">
-<meta itemprop="description" content="2018 blog about things">
+<meta itemprop="name" content="Hyperproxy - monorepo">
+<meta itemprop="description" content="Why, what and how to work with lerna based monorepo">
 
+
+<meta itemprop="datePublished" content="2018-04-08T17:45:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-04-08T17:45:00&#43;00:00" />
+<meta itemprop="wordCount" content="802">
+
+
+
+<meta itemprop="keywords" content="technical," />
 
         
 
@@ -95,9 +98,10 @@
       <div id="wrapper">
 
     
+    
 <header id="header">
     
-      <h1><a href="https://louisgv.me/2018/">categories</a></h1>
+      <h1><a href="https://louisgv.me/2018/">blog</a></h1>
     
 
     <nav class="links">
@@ -137,6 +141,10 @@
     </nav>
     <nav class="main">
         <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -433,44 +441,368 @@
         
 </section>
 
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f&amp;text=Hyperproxy%20-%20monorepo&amp;via=lgvichy" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f&amp;title=Hyperproxy%20-%20monorepo" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f&amp;title=Hyperproxy%20-%20monorepo" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f&amp;title=Hyperproxy%20-%20monorepo" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f&amp;description=Hyperproxy%20-%20monorepo" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Louis%20Vichy&amp;body=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+        </ul>
+    </section>
+</section>
+
     
     <div id="main">
         
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="https://louisgv.me/2018/blog/dat-hyperproxy-lerna-setup/">Hyperproxy - monorepo</a></h1>
             
         
-
-        <ul class="posts">
-            <header>
-                <h1>categories</h1>
-            </header>
-            
-            
-                <li>
-                    <article>
-                        <header>
-                            
-                                <a href="https://louisgv.me/2018/categories/dat">DAT</a>
-                                <span style="float:right;">4</span>
-                            
-                        </header>
-                    </article>
-                </li>
-            
-                <li>
-                    <article>
-                        <header>
-                            
-                                <a href="https://louisgv.me/2018/categories/tracestar">tracestar</a>
-                                <span style="float:right;">1</span>
-                            
-                        </header>
-                    </article>
-                </li>
-            
-        </ul>
+        
+            <p>Why, what and how to work with lerna based monorepo</p>
+        
     </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2018-04-08'>
+            April 8, 2018</time>
+        <span class="author">Louis Vichy</span>
+        
+            <p>4 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f&amp;text=Hyperproxy%20-%20monorepo&amp;via=lgvichy" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f&amp;title=Hyperproxy%20-%20monorepo" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f&amp;title=Hyperproxy%20-%20monorepo" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f&amp;title=Hyperproxy%20-%20monorepo" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f&amp;description=Hyperproxy%20-%20monorepo" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Louis%20Vichy&amp;body=https%3a%2f%2flouisgv.me%2f2018%2fblog%2fdat-hyperproxy-lerna-setup%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+      </ul>
+    </section>
+  
+
+  
+    
 
     
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://louisgv.me/2018/blog/dat-hyperproxy-lerna-setup/" class="image featured">
+            <img src="https://louisgv.me/2018/img/2018/04/hyperproxy-lerna.png" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<h1 id="abstracts">Abstracts</h1>
+
+<p>Monorepo is a code base architecture where every module associated to a single software are placed under a single repository. This architecture might be an overhead cost to setup if the project is being developed by a single person. However, when a project has several modules and is authored by a team of people, it is extremely beneficial to team productivity as proven by its usage in large company such as <a href="https://www.youtube.com/watch?v=X0VH78ye4yY">Facebook</a> and <a href="https://www.youtube.com/watch?v=W71BTkUbdqE">Google</a>, while the trade-off for adopting this practice is actually quite minimal.</p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Previously, we talked about how we arrived at our <a href="#dat-hyperproxy-noisebridge">3 technical milestones for hyperproxy</a>. Our current implementation requires constant server and browser restart in order to test our code. Furthermore, we&rsquo;re not scaling our module fast enough. In order to achieve modular implementation so that our team can works on milestone independently, as well as creating tooling to automate app refresh pipeline, for we need to catch up on our delivery promise with the Dat project, @stayfun_ and @lgvichy decided to adopt the monorepo architect for Hyperproxy.</p>
+
+<p>In our <a href="https://docs.google.com/document/d/1zvGN7hmeOVHOaQjCUr3XuNLZxZxvOn1u0GwVhR_ucB4/edit?usp=sharing">RFC</a>, we defined 3 main concepts: <code>hyperproxy-browser</code>, <code>hyperproxy-node</code> and <code>hyperproxy-hub</code>. Let&rsquo;s take an indepth look at the main functionality of each module.</p>
+
+<h2 id="browser">Browser</h2>
+
+<p>The <code>hyperproxy-browser</code> module acts as a demonstration for a web application that can interact with the TCP/UDP dat network via our proxy. Thus, this module would be a simple front-end web application that can be run from pure static server without any backend. This means that the design of the module must allow it to be a standalone piece when it comes to deployment.</p>
+
+<h2 id="node">Node</h2>
+
+<p>The <code>hyperproxy-node</code> module is the conceptualized &ldquo;hybrid&rdquo; client that acts like a browser module in term of joining the swarm. It listens to request from browser module, and respond back with data it query from the TCP/UDP dat network.</p>
+
+<h2 id="hub">Hub</h2>
+
+<p>The <code>hyperproxy-hub</code> module serves as a meeting station for the P2P network, where it starts a websocket lobby server for peer to see and initiate connection with each other. The server also keep track of available <code>hyperproxy-node</code> instances that is serving a certain DAT archive address.</p>
+
+<h1 id="implementation">Implementation</h1>
+
+<p>We used <a href="https://lernajs.io/">lerna</a> to initialize our monorepo. This also mean that we will have to nuke our previously created repository, and embed what we have into this single repository. The structure of the project looks like the following:</p>
+
+<pre><code>.
+├── documentation
+│   ├── CODE_OF_CONDUCT.md
+│   ├── CONTRIBUTING.md
+│   ├── notes
+│   └── rfcs
+├── icon.png
+├── lerna.json
+├── LICENSE
+├── package.json
+├── packages
+│   ├── hyperproxy-browser
+│   ├── hyperproxy-hub
+│   └── hyperproxy-node
+├── README.md
+└── yarn.lock
+</code></pre>
+
+<h1 id="trade-offs">Trade-offs</h1>
+
+<p>The main trade offs that @stayfun_ have found with our current structure is that, since we tries to have each and every module adhere to the same architecture, it is often confusing which files developer might be looking at without examining the name of th directory it is under. For example, for each package in <code>packages</code>, there is an <code>index.js</code> file inside.</p>
+
+<h1 id="benefits">Benefits</h1>
+
+<p>The most beneficial aspect of this setup in our opinion is that, we only have to clone once, and all the change to a single feature that would impact two or more modules, can be referenced in the same pull request.</p>
+
+<p>In order to automate the running pipeline of every single modules, we created a run script in the <code>package.json</code> file that looks like this:</p>
+
+<pre><code>    &quot;watch&quot;: &quot;lerna run watch --parallel&quot;
+</code></pre>
+
+<p>This allows us to run all our module in parallel. By also adding change watching capability into each module runner, we have a developer environment setup where, upon applying a change on a certain module, that module will get reloaded immediately, be it on the browser or on the server. This is highly beneficial and allows us to focus on implementing the milestone.</p>
+
+<p>Another benefit of this is that now we can avoid cross-repo merge conflict. I.e, instead of resolving conflict due to our independent implementation of the 1st and 2nd milestone, we can collaboratively fix it within a single repo instead of having to juggle two or three.</p>
+
+<p>Lastly, this allows us to scale our module and further embrace the modular pattern. If we ever need to create a new module, it will be just a simple directory under <code>packages</code>, no need to hussle through github to setup an entirely new repo. This also helps to avoid namespace plaguing, forcing us to have all related package under the same name space hyperproxy. This is quite beneficial in its own way, as there is already a package named <code>hyperproxy</code> on npm! Had we not go with monorepo, we might have been blocked from ever publishing it.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Having lerna has been a tremendous boost to our productivity with the hyperproxy project. We deeply thank those who have created lerna, the babel project. The future of hyperproxy seems as bright as ever.</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="https://louisgv.me/2018/categories/dat">DAT</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+            
+            
+                <i class="fa fa-tags"></i>
+                
+                
+                <li><a class="article-category-link" href="https://louisgv.me/2018/tags/technical">technical</a></li>
+                
+            
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+      <h2>Say something</h2>
+
+  <form class="post-new-comment" method="POST" action="https://api.staticman.net/v2/entry/louisgv/2018/master/comments">
+
+    <input type="hidden" name="options[redirect]" value="https://louisgv.me/2018//blog/dat-hyperproxy-lerna-setup/">
+    <input type="hidden" name="options[entryId]" value="eb5a09c56c7faa116f30cef9acf84792">
+    <input required name="fields[name]" type="text" placeholder="Your name (Required)">
+    <input name="fields[website]" type="text" placeholder="Your website">
+    <input required name="fields[email]" type="email" placeholder="Your email address (Required for Gravatar)">
+    <textarea required name="fields[body]" placeholder='Your message. Feel free to use Markdown (Google "Markdown Cheat Sheet").' rows="10"></textarea>
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="6LcjhksUAAAAAF-Ib7iQiFP3IfxqXERW6OLwaeUb">
+    <input type="hidden" name="options[reCaptcha][secret]" value="a&#43;He0GzoLKDrVHWvZ3SyqlgGi2KwaxHnWcSeciPfUbQCh8bnkJwX4iKy6KcdZ5Me4cW8/DrlGu9y3LyPLGBHNgH8rRGeuFSDXzTVhqkOY5/GfWYnaPaHQFRzNc/KBbE0zDEilrsFhukQcJVSlFkpx7G2BGgoz/xrLJdNlst3MKI=">
+    <div class="g-recaptcha" data-sitekey="6LcjhksUAAAAAF-Ib7iQiFP3IfxqXERW6OLwaeUb"></div>
+    <input type="submit" value="Submit">
+  </form>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<h2>Comments</h2>
+
+
+
+
+
+
+  
+
+
+
+  <p>Nothing yet.</p>
+
+
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="https://louisgv.me/2018/blog/dat-hyperproxy-noisebridge/"
+                class="button big previous">Hyperproxy - at NoiseBridge</a></li>
+    
+
+    
+</ul>
+
+
+    </div>
     
 <section id="sidebar">
 
@@ -492,7 +824,7 @@
       <ul class="icons">
         
           <li>
-            <a href="https://louisgv.me/2018/categories/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
           </li>
         
         
@@ -819,6 +1151,42 @@
   
   
   
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="https://louisgv.me/2018/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://louisgv.me/2018/categories/dat/">DAT</a>
+                <span style="float:right;">4</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://louisgv.me/2018/categories/tracestar/">tracestar</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+  
 
   
   
@@ -835,7 +1203,7 @@
       <ul class="icons">
         
           <li>
-            <a href="https://louisgv.me/2018/categories/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
           </li>
         
         

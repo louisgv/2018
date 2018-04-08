@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://louisgv.me/2018/blog/dat-hyperproxy-lerna-setup/</loc>
+    <lastmod>2018-04-08T17:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://louisgv.me/2018/blog/dat-hyperproxy-noisebridge/</loc>
     <lastmod>2018-03-25T00:09:41+00:00</lastmod>
   </url>
@@ -29,13 +34,13 @@
   
   <url>
     <loc>https://louisgv.me/2018/</loc>
-    <lastmod>2018-03-25T00:09:41+00:00</lastmod>
+    <lastmod>2018-04-08T17:45:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://louisgv.me/2018/blog/</loc>
-    <lastmod>2018-03-25T00:09:41+00:00</lastmod>
+    <lastmod>2018-04-08T17:45:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -50,7 +55,7 @@
   
   <url>
     <loc>https://louisgv.me/2018/categories/dat/</loc>
-    <lastmod>2018-03-25T00:09:41+00:00</lastmod>
+    <lastmod>2018-04-08T17:45:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -68,7 +73,7 @@
   
   <url>
     <loc>https://louisgv.me/2018/tags/technical/</loc>
-    <lastmod>2018-03-25T00:09:41+00:00</lastmod>
+    <lastmod>2018-04-08T17:45:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

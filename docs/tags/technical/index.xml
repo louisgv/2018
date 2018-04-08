@@ -6,13 +6,22 @@
     <description>Recent content in Technical on 2018.lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Mar 2018 00:09:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Apr 2018 17:45:00 +0000</lastBuildDate>
     
 	<atom:link href="https://louisgv.me/2018/tags/technical/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>DAT hyperproxy at NoiseBridge</title>
+      <title>Hyperproxy - monorepo</title>
+      <link>https://louisgv.me/2018/blog/dat-hyperproxy-lerna-setup/</link>
+      <pubDate>Sun, 08 Apr 2018 17:45:00 +0000</pubDate>
+      
+      <guid>https://louisgv.me/2018/blog/dat-hyperproxy-lerna-setup/</guid>
+      <description>Abstracts Monorepo is a code base architecture where every module associated to a single software are placed under a single repository. This architecture might be an overhead cost to setup if the project is being developed by a single person. However, when a project has several modules and is authored by a team of people, it is extremely beneficial to team productivity as proven by its usage in large company such as Facebook and Google, while the trade-off for adopting this practice is actually quite minimal.</description>
+    </item>
+    
+    <item>
+      <title>Hyperproxy - at NoiseBridge</title>
       <link>https://louisgv.me/2018/blog/dat-hyperproxy-noisebridge/</link>
       <pubDate>Sun, 25 Mar 2018 00:09:41 +0000</pubDate>
       
@@ -22,7 +31,7 @@ Introduction Louis met up with group of privacy hackers at Noise Bridge, a San F
     </item>
     
     <item>
-      <title>DAT hyperproxy conceptualize</title>
+      <title>Hyperproxy - conceptualize</title>
       <link>https://louisgv.me/2018/blog/dat-hyperproxy-concept/</link>
       <pubDate>Sun, 25 Feb 2018 13:21:41 -0500</pubDate>
       
@@ -32,7 +41,7 @@ Introduction We had a discussion with @joeahand 7 days ago regarding what we can
     </item>
     
     <item>
-      <title>DAT White Paper Dissection</title>
+      <title>DAT - White Paper Dissection</title>
       <link>https://louisgv.me/2018/blog/dat-wp-uml-dissect/</link>
       <pubDate>Thu, 08 Feb 2018 11:34:28 -0500</pubDate>
       

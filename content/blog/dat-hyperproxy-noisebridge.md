@@ -1,5 +1,5 @@
 ---
-title: "DAT hyperproxy at NoiseBridge"
+title: "Hyperproxy - at NoiseBridge"
 description: "Engaging with the privacy hackers at NoiseBridge wit the hyperproxy project"
 date: 2018-03-25T00:09:41.619Z
 draft: false
@@ -44,6 +44,10 @@ The second milestone we discussed is to implement the Hyperproxy Hybrid Node tha
 # Third technical milestone
 
 The last milestone is to integrate the `hyperproxy-node` as a peer into the swarm created by `hybridproxy-hub`, and create logic for the hub to ensure that there is always enough `hyperproxy-node` in the swarm to serve the other peers.
+
+# Discussion
+
+From our brief description above, there are several benefits attached to the milestone we have derived. The first being, two of the milestones (1st and 2nd) can be implement independently of each other. This is very beneficial for a team, as we can parallel the task and speed up our delivery. Secondly, this allows us to think deeper into each piece of the project, so that we can create concise issue and tackle them one by one. The last milestone is a rendezvous point for the team where we would integrate our implementation of the 1st and the 2nd milestone, which we could do in a pair-programming fashion.
 
 # Conclusion
 
