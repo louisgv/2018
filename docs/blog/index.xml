@@ -6,10 +6,19 @@
     <description>Recent content in Blog on 2018.lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Apr 2018 17:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 17:50:31 +0000</lastBuildDate>
     
 	<atom:link href="https://louisgv.me/2018/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hyperproxy - shared config and state protocol</title>
+      <link>https://louisgv.me/2018/blog/dat-hyperproxy-config-type-deploy/</link>
+      <pubDate>Sun, 15 Apr 2018 17:50:31 +0000</pubDate>
+      
+      <guid>https://louisgv.me/2018/blog/dat-hyperproxy-config-type-deploy/</guid>
+      <description>Abstracts A modular approach to a project often has a common trade-off, namely how to share a single configuration across different module? Similar to this problem, Hyperproxy also have an internal problem within itself. Due to its distributed network nature, it might be a challenge to determine the current state of any peer at a given moment. This article discuss these two problem in a sequential order, and seeks to show the reader how we at GSM solved this challenge using awesome open source tools.</description>
+    </item>
     
     <item>
       <title>Hyperproxy - monorepo</title>
