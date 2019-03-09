@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>game on 2018.lab</title>
-    <link>https://louisgv.ga2018/tags/game/</link>
+    <link>https://louisgv.ga/2018/tags/game/</link>
     <description>Recent content in game on 2018.lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://louisgv.ga2018/tags/game/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://louisgv.ga/2018/tags/game/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>tracestar Concept</title>
-      <link>https://louisgv.ga2018/blog/tracestar-concept/</link>
+      <link>https://louisgv.ga/2018/blog/tracestar-concept/</link>
       <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://louisgv.ga2018/blog/tracestar-concept/</guid>
+      <guid>https://louisgv.ga/2018/blog/tracestar-concept/</guid>
       <description>Abstracts Revisiting A*, its seems there are not that many interactive experience that can immerse knowledge seeker into the algorithm. Game is a great device for this. In this spirit, the lab decided to concept tracestar, a casual game with the main goal of letting the user experience A*.
 Introduction A* is a path finding algorithm optimized to find shortest and cheapest path between two points. The algorithm is a generalized case of Dijkstra&amp;rsquo;s path finding algorithm, using a heuristic, or an estimated guess as to how far away a node is from the goal.</description>
     </item>

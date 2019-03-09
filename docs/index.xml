@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018.lab</title>
-    <link>https://louisgv.ga2018/</link>
+    <link>https://louisgv.ga/2018/</link>
     <description>Recent content on 2018.lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Apr 2018 17:50:31 +0000</lastBuildDate>
     
-	<atom:link href="https://louisgv.ga2018/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://louisgv.ga/2018/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hyperproxy - shared config and state protocol</title>
-      <link>https://louisgv.ga2018/blog/dat-hyperproxy-config-type-deploy/</link>
+      <link>https://louisgv.ga/2018/blog/dat-hyperproxy-config-type-deploy/</link>
       <pubDate>Sun, 15 Apr 2018 17:50:31 +0000</pubDate>
       
-      <guid>https://louisgv.ga2018/blog/dat-hyperproxy-config-type-deploy/</guid>
+      <guid>https://louisgv.ga/2018/blog/dat-hyperproxy-config-type-deploy/</guid>
       <description>Abstracts A modular approach to a project often has a common trade-off, namely how to share a single configuration across different module? Similar to this problem, Hyperproxy also have an internal problem within itself. Due to its distributed network nature, it might be a challenge to determine the current state of any peer at a given moment. This article discuss these two problem in a sequential order, and seeks to show the reader how we at GSM solved this challenge using awesome open source tools.</description>
     </item>
     
     <item>
       <title>Hyperproxy - monorepo</title>
-      <link>https://louisgv.ga2018/blog/dat-hyperproxy-lerna-setup/</link>
+      <link>https://louisgv.ga/2018/blog/dat-hyperproxy-lerna-setup/</link>
       <pubDate>Sun, 08 Apr 2018 17:45:00 +0000</pubDate>
       
-      <guid>https://louisgv.ga2018/blog/dat-hyperproxy-lerna-setup/</guid>
+      <guid>https://louisgv.ga/2018/blog/dat-hyperproxy-lerna-setup/</guid>
       <description>Abstracts Monorepo is a code base architecture where every module associated with a single software is placed under a single repository. This architecture might be an overhead cost to setup if the project is being developed by a single person. However, when a project has several modules and is authored by a team of people, it is extremely beneficial to team productivity as proven by its usage in large company such as Facebook and Google, while the trade-off for adopting this practice is actually quite minimal.</description>
     </item>
     
     <item>
       <title>Hyperproxy - at NoiseBridge</title>
-      <link>https://louisgv.ga2018/blog/dat-hyperproxy-noisebridge/</link>
+      <link>https://louisgv.ga/2018/blog/dat-hyperproxy-noisebridge/</link>
       <pubDate>Sun, 25 Mar 2018 00:09:41 +0000</pubDate>
       
-      <guid>https://louisgv.ga2018/blog/dat-hyperproxy-noisebridge/</guid>
+      <guid>https://louisgv.ga/2018/blog/dat-hyperproxy-noisebridge/</guid>
       <description>Abstracts This is the first week of Sprint 3. Louis got a scholarship from Unity to attend GDC, and thus he flew to San Francisco for 10 days. During GDC, he talked to many many interesting people. After GDC, he went to Noise Bridge, and he got into an interesting discussion with several privacy advocate hackers that would turned out to be super beneficial to hyperproxy.
 Introduction Louis met up with group of privacy hackers at Noise Bridge, a San Francisco based hackerspace during his trip to GDC.</description>
     </item>
     
     <item>
       <title>tracestar Concept</title>
-      <link>https://louisgv.ga2018/blog/tracestar-concept/</link>
+      <link>https://louisgv.ga/2018/blog/tracestar-concept/</link>
       <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://louisgv.ga2018/blog/tracestar-concept/</guid>
+      <guid>https://louisgv.ga/2018/blog/tracestar-concept/</guid>
       <description>Abstracts Revisiting A*, its seems there are not that many interactive experience that can immerse knowledge seeker into the algorithm. Game is a great device for this. In this spirit, the lab decided to concept tracestar, a casual game with the main goal of letting the user experience A*.
 Introduction A* is a path finding algorithm optimized to find shortest and cheapest path between two points. The algorithm is a generalized case of Dijkstra&amp;rsquo;s path finding algorithm, using a heuristic, or an estimated guess as to how far away a node is from the goal.</description>
     </item>
     
     <item>
       <title>Hyperproxy - conceptualize</title>
-      <link>https://louisgv.ga2018/blog/dat-hyperproxy-concept/</link>
+      <link>https://louisgv.ga/2018/blog/dat-hyperproxy-concept/</link>
       <pubDate>Sun, 25 Feb 2018 13:21:41 -0500</pubDate>
       
-      <guid>https://louisgv.ga2018/blog/dat-hyperproxy-concept/</guid>
+      <guid>https://louisgv.ga/2018/blog/dat-hyperproxy-concept/</guid>
       <description>Abstracts This blog entails the discussion between @stayfun_ and I this Sunday on our brainstorming session for Hyperproxy.
 Introduction We had a discussion with @joeahand 7 days ago regarding what we can do to most effectively contribute to the Dat project. The project we decided to work on is related to this comment that Joe left on an issue in dat-js, the original project we planned to work on.</description>
     </item>
     
     <item>
       <title>DAT - White Paper Dissection</title>
-      <link>https://louisgv.ga2018/blog/dat-wp-uml-dissect/</link>
+      <link>https://louisgv.ga/2018/blog/dat-wp-uml-dissect/</link>
       <pubDate>Thu, 08 Feb 2018 11:34:28 -0500</pubDate>
       
-      <guid>https://louisgv.ga2018/blog/dat-wp-uml-dissect/</guid>
+      <guid>https://louisgv.ga/2018/blog/dat-wp-uml-dissect/</guid>
       <description>Abstracts This is a technical log on our progress on the FOSS project. It is the second week of Sprint 1, and the Rochester weather is ever forgiving. My ankles were soaked in snow for at least three days straight, and my shoes had turned into a bleak white shade.
 Our initial goal of Sprint 1 week 2 is to research and understand as much as possible about the Dat-js library as well as the DAT protocol as a whole from their white paper.</description>
     </item>
